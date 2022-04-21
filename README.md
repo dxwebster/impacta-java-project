@@ -16,7 +16,7 @@ Obs: esse tutorial é para Linux ou Mac. Se estiver com Windows, vale a pena ins
 
 ## 1. Instalar SDKMan!
 
-SDKMan é um **gerenciador de Kits de Desenvolvimento de Softwares (SDK)** na maioria dos sistemas baseados em Unix. Vamos utilizar a CLI do sdkman para instalar todas as ferramentas do Java:
+SDKMan é um **gerenciador** de Kits de Desenvolvimento de Softwares (SDK) na maioria dos sistemas baseados em Unix. Vamos utilizar a CLI do sdkman para instalar todas as ferramentas do Java:
 
 `curl -s "https://get.sdkman.io" | bash`
 
@@ -27,9 +27,7 @@ Depois, para usar sua CLI, vamos executar:
 
 ## 2. Instalar o Java 
 
-Instalar o Java significa instalar sua JDK, ou seja, seu kit de desenvolvimento.
-
-Existem diversas dstribuições de JDK do Java, mas todas elas incluem:
+Instalar o Java significa instalar sua JDK, ou seja, seu kit de desenvolvimento. Existem diversas dstribuições de JDK do Java, mas todas elas incluem:
 
 - **Java Runtime Environment (JRE):** uma espécie de máquina virtual que executa código Java
 - **Compilador Java (javac):** um compilador que converte código Java em arquivos binários

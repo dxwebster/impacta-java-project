@@ -14,7 +14,8 @@ Neste projeto foram utilizadas as seguintes ferramentas:
 
 ## 1. Instalar SDKMan!
 
-SDKMan é um gerenciador de Kits de Desenvolvimento de Softwares (SDK) na maioria dos sistemas baseados em Unix.
+SDKMan é um **gerenciador de Kits de Desenvolvimento de Softwares (SDK)** na maioria dos sistemas baseados em Unix.
+
 Ele tem uma CLI que utilizaremos para instalar todas as ferramentas do Java.
 
 Para instalar o SDKMan, executar:
@@ -32,8 +33,8 @@ Instalar o Java significa instalar sua JDK, ou seja, seu kit de desenvolvimento.
 
 Existem diversas dstribuições de JDK do Java, mas todas elas incluem:
 
-- Java Runtime Environment (JRE): uma espécie de máquina virtual que executa código Java
-- Compilador Java (javac): um compilador que converte código Java em arquivos binários
+- **Java Runtime Environment (JRE):** uma espécie de máquina virtual que executa código Java
+- **Compilador Java (javac):** um compilador que converte código Java em arquivos binários
 
 Vamos instalar o Java e suas ferramentas por meio da CLI SDKMan, escolhendo a distribuição que desejamos.
 
@@ -43,9 +44,9 @@ Neste caso, vamos instalar adistribuição OpenJDK (Open Java Development Kit):
 
 ## 3. Instalar o Maven 
 
-Maven é o gerenciador de pacotes do Java.
+Maven é o **gerenciador de pacotes do Java**.
 
-Podemos instalar o Maven também pela cli do SDKMan:
+Podemos instalar o Maven também pela CLI do SDKMan:
 
 `sdk install maven`
 
@@ -55,18 +56,19 @@ Com o Maven, podemos criar projetos java utilizando templates, chamaos de archet
 
 `mvn archetype:generate`
 
-O terminal vai solicitar um número ou um filtro (choose a number or apply a filter). Vamos filtrar por projetos básicos, escrevendo:
+O terminal vai solicitar um **número ou um filtro** (choose a number or apply a filter).
 
-`quickstart`.
+Vamos filtrar por projetos de template bem básicos com a palavra-chave: `quickstart`
 
 O terminal vai pedir novamente um número ou filtro, mas vai dar um número como sugestão.
-Neste caso sugeriu o '120', digitar '120' e dar ENTER.
 
 ```
 Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): 120:
 ```
 
-Depois vai solicitar para selecionar a versão. Selecionar sempre a última, neste caso, a versão 8.
+Neste caso sugeriu o '120', digitar '120' e dar ENTER.
+
+Depois vai solicitar para selecionar a versão. 
 
 ```
 Choose org.apache.maven.archetypes:maven-archetype-quickstart version: 
@@ -80,6 +82,8 @@ Choose org.apache.maven.archetypes:maven-archetype-quickstart version:
 8: 1.4
 Choose a number: 8: 8
 ```
+
+**Selecionar sempre a última**, neste caso, a versão 8.
 
 Depois o terminal vai solicitar que responda várias perguntas para estruturar o projeto com nomes e créditos, grupo, artefato, autor, etc. 
 

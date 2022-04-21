@@ -27,14 +27,14 @@ Depois, para usar sua CLI, vamos executar:
 
 ## 2. Instalar o Java 
 
-Instalar o Java significa instalar sua JDK, ou seja, seu kit de desenvolvimento. Existem diversas dstribuições de JDK do Java, mas todas elas incluem:
+Instalar o Java significa instalar sua JDK, ou seja, seu kit de desenvolvimento. O JDK inclui:
 
 - **Java Runtime Environment (JRE):** uma espécie de máquina virtual que executa código Java
 - **Compilador Java (javac):** um compilador que converte código Java em arquivos binários
 
 Vamos instalar o Java e suas ferramentas por meio da CLI SDKMan, escolhendo a distribuição que desejamos.
 
-Neste caso, vamos instalar adistribuição OpenJDK (Open Java Development Kit):
+Neste caso, vamos instalar a distribuição OpenJDK (Open Java Development Kit):
 
 `sdk install java 17-open`
 

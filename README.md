@@ -27,7 +27,7 @@ Depois, para usar sua CLI, vamos executar:
 
 ## 2. Instalar o Java 
 
-Instalar o Java significa instalar sua JDK, ou seja, seu kit de desenvolvimento. O JDK inclui:
+Instalar o Java significa instalar sua JDK (Java Development Kit), ou seja, seu kit de desenvolvimento. O JDK inclui:
 
 - **Java Runtime Environment (JRE):** uma espécie de máquina virtual que executa código Java
 - **Compilador Java (javac):** um compilador que converte código Java em arquivos binários

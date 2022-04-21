@@ -1,0 +1,114 @@
+## :dart: About ##
+
+Primeiro projeto Java para aprender instalação de Java Development Kit e outras ferramentas
+
+## :rocket: Technologies ##
+
+The following tools were used in this project:
+
+- [SDKMan](https://sdkman.io/)
+- [JDK - Java Development Kit](https://sdkman.io/jdks)
+- [Maven](https://sdkman.io/sdks)
+
+## :white_check_mark: Como criar esse mesmo projeto do zero ##
+
+
+### 1. Instalar SDKMan!
+
+SDKMan é um gerenciador de kits de Desenvolvimento de Softwares (SDK) na maioria dos sistemas baseados em Unix.
+Ele tem uma CLI que utilizaremos para instalar todas as ferramentas do Java.
+
+Para instalar o SDKMan, executar:
+
+`curl -s "https://get.sdkman.io" | bash`
+
+Depois, para usar sua CLI, vamos executar:
+
+`sdk <comando>`
+
+
+### 2. Instalar o Java 
+
+Instalar o Java significa instalar sua JDK, ou seja, instalar seu kit de desenvolvimento.
+
+Existem diversas dstribuições de JDK do Java, mas todas elas incluem:
+
+- Java Runtime Environment (JRE): uma espécie de máquina virtual que executa código Java
+- Compilador Java (javac): um compilador que converte código Java em arquivos binários
+
+Vamos instalar o Java e suas ferramentas por meio da CLI SDKMan, escolhendo a distribuição que desejamos.
+
+Neste caso, vamos instalar adistribuição OpenJDK (Open Java Development Kit):
+
+`sdk install java 17-open`
+
+### 3. Instalar o Maven Maven
+
+Maven é o gerenciador de pacotes do Java.
+
+Podemos instalar o Maven também pela cli do SDKMan:
+
+`sdk install maven`
+
+### 4. Criar template de projeto Java
+
+Com o Maven, podemos criar projetos java utilizando templates, chamaos de archetype. Para baixar os templates disponíveis, executar:
+
+`mvn archetype:generate`
+
+O terminal vai solicitar um número ou um filtro (choose a number or apply a filter). Vamos filtrar pro projetos básicos, escrevendo:
+
+`quickstart`.
+
+O terminal vai pedir novamente um número ou filtro, mas vai dar um número como sugestão, neste caso sugeriu o '120'. Escrever '120' e dar ENTER. Depois vai solicitar para selecionar a versão. Selecionar sempre a última.
+
+Depois o terminal vai solicitar que responda várias perguntas para estruturar o projeto com nomes e créditos, grupo, artefato, autor, etc. 
+
+```bash
+$ Define value for property 'groupId': fit
+$ Define value for property 'artifactId': exemplo-java
+$ Define value for property 'version' 1.0-SNAPSHOT: <ENTER>
+$ Define value for property 'package' fit: <ENTER>
+$ Confirm properties configuration: Y
+```
+
+Depois só acessar o projeto:
+
+`cd exemplo-java`
+
+E rodar um teste para verificar seu tudo ocorreu como esperado:
+
+`mvn test`
+
+Se aparecer a mensagem BUILD SUCESS, o projeto foi criado com sucesso!
+
+```bash
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running fit.AppTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in fit.AppTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  52.139 s
+[INFO] Finished at: 2022-04-21T19:07:13-03:00
+[INFO] ------------------------------------------------------------------------
+```
+
+## :memo: License ##
+
+This project is under license from MIT.
+
+
+Made with :heart: by <a href="https://github.com/dxwebster" target="_blank">dxwebster</a>
+
+&#xa0;
+
+<a href="#top">Back to top</a>

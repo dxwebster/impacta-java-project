@@ -54,7 +54,7 @@ Podemos instalar o Maven também pela CLI do SDKMan:
 
 Com o Maven, podemos criar projetos java utilizando templates, chamaos de archetype. Para baixar os templates disponíveis, executar:
 
-<font color=\"red\">`mvn archetype:generate`</font>
+`mvn archetype:generate`
 
 O terminal vai solicitar um **número ou um filtro** (choose a number or apply a filter).
 

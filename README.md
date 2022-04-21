@@ -12,7 +12,7 @@ Neste projeto foram utilizadas as seguintes ferramentas:
 
 # 📂 Como criar esse projeto do zero
 
-Obs: esse tutorial é para Linux ou Mac. Se estiver com Windows, vale a pena instalar o [WSL2](https://github.com/codeedu/wsl2-docker-quickstart#instala%C3%A7%C3%A3o-do-wsl-2), você não vai se arrepender! :D
+Obs: esse tutorial é para Linux ou Mac. Se estiver com Windows, vale a pena instalar o [WSL2](https://github.com/codeedu/wsl2-docker-quickstart#instala%C3%A7%C3%A3o-do-wsl-2), você não vai se arrepender! 😎
 
 ## 1. Instalar SDKMan!
 

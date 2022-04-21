@@ -12,6 +12,8 @@ Neste projeto foram utilizadas as seguintes ferramentas:
 
 # 📂 Como criar esse projeto do zero
 
+Obs: esse tutorial é para Linux ou Mac. Se estiver com Windows, vale a pena instalar o [WSL2](https://github.com/codeedu/wsl2-docker-quickstart#instala%C3%A7%C3%A3o-do-wsl-2), você não vai se arrepender! :D
+
 ## 1. Instalar SDKMan!
 
 SDKMan é um **gerenciador de Kits de Desenvolvimento de Softwares (SDK)** na maioria dos sistemas baseados em Unix.

@@ -1,19 +1,18 @@
-## :dart: About ##
+# :dart: Sobre ##
 
 Primeiro projeto Java para aprender instalação de Java Development Kit e outras ferramentas
 
-## :rocket: Technologies ##
+# :rocket: Tecnologias ##
 
-The following tools were used in this project:
+Neste projeto foram utilizadas as seguintes ferramentas:
 
 - [SDKMan](https://sdkman.io/)
-- [JDK - Java Development Kit](https://sdkman.io/jdks)
+- [Java Development Kit (JDK)](https://sdkman.io/jdks)
 - [Maven](https://sdkman.io/sdks)
 
-## :white_check_mark: Como criar esse mesmo projeto do zero ##
+# :white_check_mark: Como criar esse mesmo projeto do zero ##
 
-
-### 1. Instalar SDKMan!
+## 1. Instalar SDKMan!
 
 SDKMan é um gerenciador de kits de Desenvolvimento de Softwares (SDK) na maioria dos sistemas baseados em Unix.
 Ele tem uma CLI que utilizaremos para instalar todas as ferramentas do Java.
@@ -27,7 +26,7 @@ Depois, para usar sua CLI, vamos executar:
 `sdk <comando>`
 
 
-### 2. Instalar o Java 
+## 2. Instalar o Java 
 
 Instalar o Java significa instalar sua JDK, ou seja, instalar seu kit de desenvolvimento.
 
@@ -42,7 +41,7 @@ Neste caso, vamos instalar adistribuição OpenJDK (Open Java Development Kit):
 
 `sdk install java 17-open`
 
-### 3. Instalar o Maven Maven
+## 3. Instalar o Maven 
 
 Maven é o gerenciador de pacotes do Java.
 
@@ -50,21 +49,41 @@ Podemos instalar o Maven também pela cli do SDKMan:
 
 `sdk install maven`
 
-### 4. Criar template de projeto Java
+## 4. Criar template de projeto Java
 
 Com o Maven, podemos criar projetos java utilizando templates, chamaos de archetype. Para baixar os templates disponíveis, executar:
 
 `mvn archetype:generate`
 
-O terminal vai solicitar um número ou um filtro (choose a number or apply a filter). Vamos filtrar pro projetos básicos, escrevendo:
+O terminal vai solicitar um número ou um filtro (choose a number or apply a filter). Vamos filtrar por projetos básicos, escrevendo:
 
 `quickstart`.
 
-O terminal vai pedir novamente um número ou filtro, mas vai dar um número como sugestão, neste caso sugeriu o '120'. Escrever '120' e dar ENTER. Depois vai solicitar para selecionar a versão. Selecionar sempre a última.
+O terminal vai pedir novamente um número ou filtro, mas vai dar um número como sugestão.
+Neste caso sugeriu o '120', digitar '120' e dar ENTER.
+
+```
+Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): 120:
+```
+
+Depois vai solicitar para selecionar a versão. Selecionar sempre a última, neste caso, a versão 8.
+
+```
+Choose org.apache.maven.archetypes:maven-archetype-quickstart version: 
+1: 1.0-alpha-1
+2: 1.0-alpha-2
+3: 1.0-alpha-3
+4: 1.0-alpha-4
+5: 1.0
+6: 1.1
+7: 1.3
+8: 1.4
+Choose a number: 8: 8
+```
 
 Depois o terminal vai solicitar que responda várias perguntas para estruturar o projeto com nomes e créditos, grupo, artefato, autor, etc. 
 
-```bash
+```
 $ Define value for property 'groupId': fit
 $ Define value for property 'artifactId': exemplo-java
 $ Define value for property 'version' 1.0-SNAPSHOT: <ENTER>

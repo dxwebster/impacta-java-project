@@ -1,8 +1,8 @@
-# :dart: Sobre ##
+# :dart: Sobre
 
 Primeiro projeto Java para aprender instalação de Java Development Kit e outras ferramentas
 
-# :rocket: Tecnologias ##
+# :rocket: Tecnologias
 
 Neste projeto foram utilizadas as seguintes ferramentas:
 
@@ -10,11 +10,11 @@ Neste projeto foram utilizadas as seguintes ferramentas:
 - [Java Development Kit (JDK)](https://sdkman.io/jdks)
 - [Maven](https://sdkman.io/sdks)
 
-# :white_check_mark: Como criar esse mesmo projeto do zero ##
+# 📂 Como criar esse projeto do zero
 
 ## 1. Instalar SDKMan!
 
-SDKMan é um gerenciador de kits de Desenvolvimento de Softwares (SDK) na maioria dos sistemas baseados em Unix.
+SDKMan é um gerenciador de Kits de Desenvolvimento de Softwares (SDK) na maioria dos sistemas baseados em Unix.
 Ele tem uma CLI que utilizaremos para instalar todas as ferramentas do Java.
 
 Para instalar o SDKMan, executar:
@@ -28,7 +28,7 @@ Depois, para usar sua CLI, vamos executar:
 
 ## 2. Instalar o Java 
 
-Instalar o Java significa instalar sua JDK, ou seja, instalar seu kit de desenvolvimento.
+Instalar o Java significa instalar sua JDK, ou seja, seu kit de desenvolvimento.
 
 Existem diversas dstribuições de JDK do Java, mas todas elas incluem:
 

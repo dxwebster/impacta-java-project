@@ -12,9 +12,7 @@ Neste projeto foram utilizadas as seguintes ferramentas:
 
 # 📂 Como criar esse projeto do zero
 
-Obs: esse tutorial é para Linux ou Mac. Se estiver com Windows, vale a pena instalar o [WSL2](https://github.com/codeedu/wsl2-docker-quickstart#instala%C3%A7%C3%A3o-do-wsl-2), você não vai se arrepender! 😎
-
-Se você estiver no ambiente WSL, é necessário instalar algumas ferramentas antes de começar. Abra o Terminal e execute os dois comandos:
+Este tutorial é para **Linux** ou **Mac**. Se estiver com Windows, instale o [WSL2](https://github.com/codeedu/wsl2-docker-quickstart#instala%C3%A7%C3%A3o-do-wsl-2), para criar seu ambiente. Antes de começar o tutorial abaixo, execute esses comandos para instalar algumas ferramentas necessárias:
 
 ```
 $ apt-get update
